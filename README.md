@@ -1,1 +1,14 @@
 # appgw-external-dns
+
+```
+cat <<EOF > .env
+AZURE_CLIENT_ID=foo
+AZURE_TENANT_ID=foo
+AZURE_CLIENT_SECRET=foo
+SECRET_ID=foo
+SUBSCRIPTION_ID=foo
+RESOURCE_GROUP_NAME=foo
+DNS_ZONE_NAME=foo
+APPGW_IP_ADDRESS=foo
+EOF
+```

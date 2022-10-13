@@ -7,6 +7,8 @@ setup(
     install_requires=[
         'kopf',
         'azure-mgmt-dns',
-        'azure-identity'
+        'azure-identity',
+        'azure-mgmt-network',
+        'azure-mgmt-resource'
     ]
 )

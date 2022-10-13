@@ -190,7 +190,7 @@ terraform.rc
 package/
 lambda_handler.zip
 
-terraform/.terraform.lock.hcl
-terraform/builds/
+terraform/assets/.terraform.lock.hcl
+terraform/assets/builds/
 
 .vscode

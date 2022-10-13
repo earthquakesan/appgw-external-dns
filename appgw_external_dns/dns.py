@@ -4,7 +4,6 @@ from azure.mgmt.dns import DnsManagementClient
 from azure.mgmt.dns.models import RecordSet
 from azure.identity import DefaultAzureCredential
 
-# Replace this with your subscription id
 CREDENTIAL = DefaultAzureCredential()
 SUBSCRIPTION_ID = os.environ.get("SUBSCRIPTION_ID")
 
